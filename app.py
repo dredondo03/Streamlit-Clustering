@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score, davies_bouldin_score
-from model import preprocessing, clustering
+from IA_28 import preprocessing, clustering
  
 
 st.title("Clustering APP(IA)")
